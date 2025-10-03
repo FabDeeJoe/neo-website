@@ -10,6 +10,9 @@ const nextConfig: NextConfig = {
     ],
   },
   reactStrictMode: true,
+  experimental: {
+    ppr: false,
+  },
 }
 
 export default nextConfig
