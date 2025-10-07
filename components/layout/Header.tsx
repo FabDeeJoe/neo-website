@@ -2,6 +2,7 @@
 
 import * as React from 'react'
 import Link from 'next/link'
+import Image from 'next/image'
 import { usePathname } from 'next/navigation'
 import { Container } from '@/components/ui/Container'
 import { Button } from '@/components/ui/Button'
@@ -28,14 +29,18 @@ export function Header() {
           {/* Logo */}
           <Link
             href="/"
-            className="flex items-center space-x-2"
+            className="flex items-center"
             aria-label="Retour à l'accueil"
           >
-            <div
-              className="from-primary to-secondary h-8 w-8 rounded-lg bg-gradient-to-br"
-              aria-hidden="true"
+            <Image
+              src="/images/logo/Color logo - no background.png"
+              alt="Neo Code"
+              width={150}
+              height={50}
+              className="h-12 w-auto"
+              priority
+              quality={100}
             />
-            <span className="text-xl font-bold">Neo Code</span>
           </Link>
 
           {/* Desktop Navigation */}
