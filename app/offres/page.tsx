@@ -28,8 +28,7 @@ const offers = [
       "Vous n'avez pas trouvé de logiciel qui corresponde vraiment à vos besoins ? Nous concevons et développons une application 100% adaptée à vos processus métier.",
     pricing: 'À partir de 5 000€ HT',
     duration: '4 à 12 semaines',
-    image:
-      'https://placehold.co/800x600/00D9FF/ffffff/webp?text=Development+from+Scratch',
+    image: '/images/offers/developpement.png',
     href: '/offres/developpement-sur-mesure',
     gradient: 'from-primary to-accent-blue',
     features: [
@@ -54,7 +53,7 @@ const offers = [
       "Vous avez déjà un outil mais il ne suit plus votre activité ? Nous le modernisons, l'optimisons et l'adaptons à vos besoins actuels.",
     pricing: 'À partir de 2 000€ HT',
     duration: '2 à 8 semaines',
-    image: 'https://placehold.co/800x600/FF00FF/ffffff/webp?text=Modernization',
+    image: '/images/offers/modernisation.png',
     href: '/offres/modernisation',
     gradient: 'from-secondary to-accent-purple',
     features: [

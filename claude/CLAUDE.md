@@ -8,6 +8,13 @@ You are developing the Neo Code website, a modern Next.js application for an art
 **Target**: Small and medium businesses (TPE/PME) in Dordogne, Gironde, and Paris
 **Core Value Proposition**: Eliminating daily frictions (complex Excel files, paper processes, unreadable schedules) through custom, fluid, and sensible software solutions
 
+## Session Guidelines
+
+- Always read PLANNING.md at the start of every new conversation
+- Check TASKS.md before starting your work
+- Mark completed tasks immediately within TASKS.md
+- Add newly discovered tasks to TASKS.md
+
 ## Technical Stack
 
 ```
