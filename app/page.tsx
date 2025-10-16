@@ -1,4 +1,4 @@
-import { Hero } from '@/components/sections/Hero'
+import { AuroraHero } from '@/components/sections/AuroraHero'
 import { Problems } from '@/components/sections/Problems'
 import { Approach } from '@/components/sections/Approach'
 import { OffersPreview } from '@/components/sections/OffersPreview'
@@ -8,7 +8,7 @@ import { CTASection } from '@/components/sections/CTASection'
 export default function Home() {
   return (
     <>
-      <Hero />
+      <AuroraHero />
       <Problems />
       <Approach />
       <OffersPreview />

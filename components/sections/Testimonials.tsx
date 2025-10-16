@@ -1,6 +1,7 @@
 'use client'
 
 import { useState } from 'react'
+import Image from 'next/image'
 import { motion, AnimatePresence } from 'framer-motion'
 import { Container } from '@/components/ui/Container'
 
@@ -12,22 +13,25 @@ const testimonials = [
     role: 'Gérante',
     company: 'Services à la personne, Bergerac',
     industry: 'Services',
+    image: '/images/testimonials/marie.jpg',
   },
   {
     quote:
-      "J\'avais des dizaines de fichiers pour gérer mes interventions, mes factures, mon stock. Neo Code a créé une solution unique qui centralise tout. Un gain de temps incroyable.",
+      "J'avais des dizaines de fichiers pour gérer mes interventions, mes factures, mon stock. Neo Code a créé une solution unique qui centralise tout. Un gain de temps incroyable.",
     author: 'Thomas L.',
     role: 'Artisan électricien',
     company: 'Bordeaux',
     industry: 'Artisanat',
+    image: '/images/testimonials/thomas.jpg',
   },
   {
     quote:
-      "Notre ancien logiciel ne suivait plus notre croissance. Fabien a su moderniser notre outil tout en gardant notre historique. La transition s\'est faite en douceur.",
+      "Notre ancien logiciel ne suivait plus notre croissance. Fabien a su moderniser notre outil tout en gardant notre historique. La transition s'est faite en douceur.",
     author: 'Sophie M.',
     role: 'Responsable logistique',
     company: 'PME transport, Dordogne',
     industry: 'Logistique',
+    image: '/images/testimonials/sophie.jpg',
   },
 ]
 
@@ -96,7 +100,16 @@ export function Testimonials() {
 
                   {/* Author */}
                   <div className="mt-8 flex items-center gap-4">
-                    <div className="from-primary to-secondary h-12 w-12 rounded-full bg-gradient-to-br" />
+                    <div className="relative h-16 w-16 overflow-hidden rounded-full">
+                      <Image
+                        src={testimonials[currentIndex].image}
+                        alt={`Photo de ${testimonials[currentIndex].author}`}
+                        width={64}
+                        height={64}
+                        className="h-full w-full object-cover"
+                        loading="lazy"
+                      />
+                    </div>
                     <div>
                       <div className="font-semibold text-slate-900 dark:text-white">
                         {testimonials[currentIndex].author}

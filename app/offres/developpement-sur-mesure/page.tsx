@@ -161,7 +161,7 @@ export default function DevelopmentPage() {
               Développement from scratch
             </div>
             <h1 className="font-heading mt-4 text-4xl font-bold text-slate-900 sm:text-5xl lg:text-6xl dark:text-white">
-              Créez l\'outil{' '}
+              Créez l'outil{' '}
               <span className="from-primary to-accent-blue bg-gradient-to-r bg-clip-text text-transparent">
                 parfait
               </span>{' '}
@@ -191,7 +191,7 @@ export default function DevelopmentPage() {
               Le constat
             </h2>
             <p className="mt-4 text-lg text-slate-600 dark:text-slate-400">
-              Vous êtes confronté à l\'une de ces situations :
+              Vous êtes confronté à l'une de ces situations :
             </p>
             <ul className="mt-8 space-y-4">
               {problems.map((problem) => (
@@ -233,12 +233,12 @@ export default function DevelopmentPage() {
               </p>
               <p>
                 Contrairement aux logiciels standardisés, chaque fonctionnalité
-                est conçue pour s\'intégrer naturellement dans votre façon de
+                est conçue pour s'intégrer naturellement dans votre façon de
                 travailler. Vous ne perdez plus de temps à adapter votre métier
-                à l\'outil.
+                à l'outil.
               </p>
               <p className="font-semibold text-slate-900 dark:text-white">
-                L\'outil s\'adapte à vous, pas l\'inverse.
+                L'outil s'adapte à vous, pas l'inverse.
               </p>
             </div>
           </div>
@@ -404,7 +404,7 @@ export default function DevelopmentPage() {
                 className="border-white text-white hover:bg-white hover:text-slate-900"
                 asChild
               >
-                <Link href="/offres">Voir l\'offre Modernisation</Link>
+                <Link href="/offres">Voir l'offre Modernisation</Link>
               </Button>
             </div>
           </div>

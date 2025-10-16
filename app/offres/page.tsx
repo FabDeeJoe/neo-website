@@ -88,7 +88,7 @@ export default function OffersPage() {
             </h1>
             <p className="mt-6 text-lg text-slate-300 sm:text-xl">
               Deux approches complémentaires pour répondre précisément à votre
-              situation : création sur-mesure ou modernisation de l\'existant.
+              situation : création sur-mesure ou modernisation de l'existant.
             </p>
           </div>
         </Container>
@@ -149,7 +149,7 @@ export default function OffersPage() {
 
                   <div className="mt-6">
                     <p className="font-semibold text-slate-900 dark:text-white">
-                      Inclus dans l\'offre :
+                      Inclus dans l'offre :
                     </p>
                     <ul className="mt-3 grid gap-2 sm:grid-cols-2">
                       {offer.features.map((feature) => (
@@ -210,7 +210,7 @@ export default function OffersPage() {
         <Container>
           <div className="mx-auto max-w-2xl text-center">
             <h2 className="font-heading text-2xl font-bold text-slate-900 sm:text-3xl dark:text-white">
-              Pas sûr de l\'offre qui vous convient ?
+              Pas sûr de l'offre qui vous convient ?
             </h2>
             <p className="mt-4 text-slate-600 dark:text-slate-400">
               Discutons de votre situation pour identifier la meilleure
